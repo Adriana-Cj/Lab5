@@ -49,7 +49,10 @@ bash php artisan breeze:
 3. Verificam că deconectarea utilizatorului funcționează corect și sigur.
 
 ## Întrebări de control
-**Ce soluții integrate pentru autentificare oferă Laravel?**
-**Ce metode de autentificare a utilizatorilor cunoașteți?**
-**Care este diferența dintre autentificare și autorizare?**
-**Cum se asigură protecția împotriva atacurilor CSRF în Laravel?**
+**1. Ce soluții integrate pentru autentificare oferă Laravel?**
+
+**2. Ce metode de autentificare a utilizatorilor cunoașteți?**
+
+**3. Care este diferența dintre autentificare și autorizare?**
+
+**4. Cum se asigură protecția împotriva atacurilor CSRF în Laravel?**
