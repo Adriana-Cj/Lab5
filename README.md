@@ -10,15 +10,15 @@ Studierea abordărilor dezvoltării sigure, inclusiv crearea rutelor protejate �
 
 ## Nr. 1. Pregătirea pentru lucru
 1. Cream un nou proiect Laravel (dacă nu este instalat) sau continuam cu proiectul anterior.
-2. Ne asiguram că variabilele de mediu din fișierul .env sunt configurate corect, inclusiv conexiunea la baza de date.
+2. Ne asiguram că variabilele de mediu din fișierul `.env` sunt configurate corect, inclusiv conexiunea la baza de date.
 
 ## Nr. 2. Autentificarea utilizatorilor
-1. Cream un controller 'AuthController' pentru gestionarea autentificării utilizatorilor.
+1. Cream un controller `AuthController` pentru gestionarea autentificării utilizatorilor.
 2. Adăugam și implementam metodele pentru înregistrarea, autentificarea și deconectarea utilizatorului:
- - register() pentru afișarea formularului de înregistrare.
- - storeRegister() pentru procesarea datelor din formularul de înregistrare.
- - login() pentru afișarea formularului de autentificare.
- - storeLogin() pentru procesarea datelor din formularul de autentificare.
+ - `register()` pentru afișarea formularului de înregistrare.
+ - `storeRegister()` pentru procesarea datelor din formularul de înregistrare.
+ - `login()` pentru afișarea formularului de autentificare.
+ - `storeLogin()` pentru procesarea datelor din formularul de autentificare.
 3. Cream rute pentru înregistrarea, autentificarea și deconectarea utilizatorului.
 4. Actualizam vizualizările pentru formularele de înregistrare și autentificare.
 5. Cream o clasă separată Request pentru validarea datelor de înregistrare sau autentificare sau adăugați validarea direct în controller.
@@ -26,9 +26,10 @@ Studierea abordărilor dezvoltării sigure, inclusiv crearea rutelor protejate �
 
 ## Nr. 3. Autentificarea utilizatorilor cu ajutorul componentelor existente
 1. Instalam biblioteca Laravel Breeze (sau Fortify, Jetstream) pentru o configurare rapidă a autentificării:
-bash php artisan breeze:install npm install && npm run dev php artisan migrate
-2. Urmam instrucțiunile de instalare și configurare a pachetului.
-3. Verificam dacă rutele /register, /login, /logout funcționează corect.
+bash php artisan breeze:
+`install npm install && npm run dev php artisan migrate`
+3. Urmam instrucțiunile de instalare și configurare a pachetului.
+4. Verificam dacă rutele `/register`, `/login`, `/logout` funcționează corect.
 
 ## Nr. 4. Autorizarea utilizatorilor
 1. Implementam o pagină „Panou personal”, accesibilă doar utilizatorilor autentificați.
