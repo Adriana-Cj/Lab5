@@ -76,9 +76,6 @@ bash php artisan breeze:
 
 ![image](https://github.com/user-attachments/assets/07bed36e-1a25-494e-a595-e7d9df1d6e7f)
 
-![image](https://github.com/user-attachments/assets/ccb6d12e-4062-4038-9243-82b6a669833f)
-
-
 3. Actualizam vizualizarea paginii „Panou personal” pentru a afișa informațiile disponibile exclusiv utilizatorilor autentificați.
 
 ![image](https://github.com/user-attachments/assets/6d88489c-0d3b-4f3e-9125-e1c35c093382)
