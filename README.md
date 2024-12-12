@@ -93,6 +93,21 @@ Am creat un UserController pentru gestionarea utilizatorilor:
 
 ![image](https://github.com/user-attachments/assets/9e8151e8-a64f-4714-bd2b-7734a322fe82)
 
+Am definit permisiunile în `app/Providers/AuthServiceProvider.php`:
+
+![image](https://github.com/user-attachments/assets/295c7d06-8a82-423d-8046-87ea68a8dff8)
+
+Actualizeazăm rutele în `routes/web.php`:
+
+![image](https://github.com/user-attachments/assets/f4baaf43-1845-492e-9ef0-cd195806f21d)
+
+Creem view-ul pentru lista de utilizatori în `resources/views/admin/users.blade.php`:
+
+![image](https://github.com/user-attachments/assets/91313998-28c6-4753-8791-1fdcba83f820)
+
+
+
+
 2. Configuram comportamentul pentru fiecare rol: `app/Http/Controllers/UserController.php`
  - **Administrator**: are posibilitatea de a vizualiza panourile personale ale tuturor utilizatorilor.
  ![image](https://github.com/user-attachments/assets/7a515eeb-49b1-48a5-be49-2a5f65dd9d72)
